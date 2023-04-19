@@ -1,0 +1,66 @@
+name: "\U0001F41B Bug Report"
+description: Report a reproducible bug or regression in Joplin.
+title: ''
+labels: ['bug']
+assignees: ''
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!--
+          Please provide a clear and concise description of what the bug is. (In the section Steps To Reproduce.)
+          Include screenshots for UI problems if needed.
+          DO NOT create screenshots of text !!! Copy and paste the text into a code block.
+          Please test using the latest Joplin release to make sure your issue has not already been fixed.
+        -->
+
+        <!--
+          IMPORTANT: If you are reporting a clipper bug, please include an example URL that shows the issue.
+          Without the URL the issue is likely to be closed.
+        -->
+
+  - type: input
+    id: joplin_version
+    attributes:
+      label: Joplin version
+    validations:
+      required: true
+
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+    validations:
+      required: true
+
+  - type: input
+    id: os_specifics
+    attributes:
+      label: OS specifics
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. 
+        2. 
+        3. 
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Describe what you expected to happen
+
+  - type: textarea
+    id: logfile
+    attributes:
+      label: Logfile
+      description: |
+        <!--
+          Please attach a debug log. Issues without a debug log are likely to stall.
+          For information on how to collect a log file: https://joplinapp.org/debugging/
+        -->
