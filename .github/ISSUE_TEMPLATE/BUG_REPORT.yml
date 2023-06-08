@@ -1,16 +1,7 @@
----
 name: "\U0001F41B Bug Report"
 title: "[Bug]: " 
 labels: bug
 assignees: octocat
-
----
-- type: markdown
-  attributes:
-    value: |
-      <!-- Please provide a clear and concise description of what the bug is. (In the section Steps To Reproduce.) Include screenshots for UI problems if needed. DO NOT create screenshots of text !!! Copy and paste the text into a code block. Please test using the latest Joplin release to make sure your issue has not already been fixed. -->
-
-      <!-- IMPORTANT: If you are reporting a sync or encryption issue, please include your sync target (Dropbox, OneDrive, etc.) and encryption method (E2EE or master key). -->
 
 body:
 - type: input
