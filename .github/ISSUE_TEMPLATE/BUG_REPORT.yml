@@ -99,8 +99,6 @@ body:
 
 ## Logfile
 
-<!-- Please attach a debug log. Issues without a debug log are likely to stall. For information on how to collect a log file see https://joplinapp.org/debugging/ -->
-
 - type : file 
    id : logfile 
    attributes :
