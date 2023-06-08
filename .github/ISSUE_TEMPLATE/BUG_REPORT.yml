@@ -60,7 +60,7 @@ body:
     options:
       - E2EE
       - master key
-      - none
+      - nonencrypted
   validations:
     required: true
 
